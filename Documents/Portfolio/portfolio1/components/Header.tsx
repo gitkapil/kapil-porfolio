@@ -1,3 +1,5 @@
+
+"use client";
 import Link from 'next/link'
 
 const LINKEDIN = 'https://www.linkedin.com/in/kapildaksh-portfolio/'
