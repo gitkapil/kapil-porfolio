@@ -1,3 +1,5 @@
+"use client";
+
 const LINKEDIN = 'https://www.linkedin.com/in/kapildaksh-portfolio/'
 const GITHUB = 'https://github.com/gitkapil'
 

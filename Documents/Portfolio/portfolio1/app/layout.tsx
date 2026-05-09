@@ -1,17 +1,11 @@
 import './globals.css'
-import { ReactNode } from 'react'
 
 export const metadata = {
   title: 'Kapil - Test Automation Engineer',
   description: 'Automation Engineer | AI-driven test automation | HK-based',
-  openGraph: {
-    title: 'Kapil - Test Automation Engineer',
-    description: 'Automation Engineer | AI-driven test automation | HK-based',
-    url: 'https://example.com',
-  }
 }
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>

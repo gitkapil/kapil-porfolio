@@ -1,18 +1,15 @@
-"use client"
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Float, RoundedBox } from '@react-three/drei'
+"use client";
 
+import dynamic from 'next/dynamic'
+
+// Simple placeholder component (3D scene removed to avoid dependency issues)
 export default function ThreeScene() {
   return (
-    <Canvas camera={{ position: [0, 0, 6], fov: 50 }}>
-      <ambientLight intensity={0.6} />
-      <directionalLight position={[5, 5, 5]} intensity={0.8} />
-      <Float floatIntensity={1} rotationIntensity={1}>
-        <RoundedBox args={[3.2, 2, 0.4]} radius={0.12} smoothness={4}>
-          <meshStandardMaterial color="#0ea5e9" metalness={0.6} roughness={0.2} />
-        </RoundedBox>
-      </Float>
-      <OrbitControls enableZoom={true} autoRotate={false} />
-    </Canvas>
+    <div className="w-full h-80 bg-gradient-to-br from-blue-400 to-cyan-300 rounded flex items-center justify-center">
+      <div className="text-center text-white">
+        <div className="text-4xl font-bold">Kapil</div>
+        <div className="text-lg">Test Automation Engineer</div>
+      </div>
+    </div>
   )
 }
